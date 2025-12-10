@@ -13,9 +13,9 @@ A structured synthetic dataset simulating 36 months of revenue, expenses, cashfl
 The goal is to demonstrate core FP&A, BI, and data modelling skills used in real business environments.
 
 **📂 Dataset Summary**
-Hybrid Data
 
 Real Data (Benchmarking Only):
+
 UK Companies House Financial Accounts
 🔗 https://download.companieshouse.gov.uk/en_accountsdata.html
 
@@ -38,6 +38,7 @@ DimDate, DimCustomer, DimProduct, DimDepartment
 Structured in a star schema and optimized for DAX time intelligence.
 
 **📈 Dashboard Sections**
+
 **1️⃣ Executive Summary**
 
 Revenue, Gross Profit, Operating Profit, Net Profit
@@ -97,14 +98,15 @@ Customer lifetime value (LTV)
 Dashboard storytelling & visual design
 
 **📁 Repository Structure**
+
 data/        → CSV files (facts + dimensions)
 pbix/        → FP&A Dashboard Power BI file
 README.md    → Project documentation
 images/      → Screenshots (optional)
 
 **👩‍💻 Author**
+
 Yashvi Pandya
 Data Analyst | FP&A | Power BI
 London, UK
 
-Forecast intervals
