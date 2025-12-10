@@ -14,7 +14,7 @@ The goal is to demonstrate core FP&A, BI, and data modelling skills used in real
 
 **🖼️ Dashboard Preview**
 
-🔹 ![Executive Dashboard]("D:\Yashvi\FinanceCompaniesHouseData\pg_1.png")
+🔹 ![Executive Dashboard]("images/pg_1.png")
 
 🔹 ![Profit & Loss Deep Dive]("D:\Yashvi\FinanceCompaniesHouseData\pg_2.png")
 
