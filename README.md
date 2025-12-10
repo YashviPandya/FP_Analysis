@@ -14,13 +14,13 @@ The goal is to demonstrate core FP&A, BI, and data modelling skills used in real
 
 **🖼️ Dashboard Preview**
 
-🔹 ![Executive Dashboard]("images/pg_1.png")
+🔹 ![Executive Dashboard]("pg_1.png")
 
-🔹 ![Profit & Loss Deep Dive]("D:\Yashvi\FinanceCompaniesHouseData\pg_2.png")
+🔹 ![Profit & Loss Deep Dive]("pg_2.png")
 
-🔹 ![Cashflow & Liquidity Analysis]("D:\Yashvi\FinanceCompaniesHouseData\pg_3.png")
+🔹 ![Cashflow & Liquidity Analysis]("pg_3.png")
 
-🔹 ![Customer Insights]("D:\Yashvi\FinanceCompaniesHouseData\pg_4.png")
+🔹 ![Customer Insights]("pg_4.png")
 
 
 **📂 Dataset Summary**
