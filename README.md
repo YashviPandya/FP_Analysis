@@ -1,119 +1,111 @@
-#📊 FP&A Financial Performance Dashboard — Power BI
+**📊 FP&A Financial Performance Dashboard — Power BI**
 
-A complete end-to-end financial analytics project using a hybrid dataset (real UK benchmarks + synthetic operational data).
+A compact, high-impact financial analytics project using hybrid data.
 
-#📁 Project Overview
+**🧾 Overview**
 
-This project showcases a full Financial Planning & Analysis (FP&A) dashboard built in Power BI, designed to demonstrate core skills required in finance, analytics, and BI roles.
+This project showcases a modern FP&A dashboard built in Power BI, combining:
 
-It uses:
+Real UK financial benchmarks (Companies House)
 
-Real UK financial statement data from Companies House (for benchmarking)
+A structured synthetic dataset simulating 36 months of revenue, expenses, cashflow, and customer activity
 
-A custom-built synthetic operational dataset that simulates revenue, expenses, budgeting, and cashflow across a 36-month period
+The goal is to demonstrate core FP&A, BI, and data modelling skills used in real business environments.
 
-This dashboard replicates the type of reporting used by FP&A teams in modern UK businesses.
+**📂 Dataset Summary**
+Hybrid Data
 
-#📂 Dataset Description
-##1. Real Data Source (Benchmarking Only)
-
-UK Companies House — Public Financial Accounts Dataset
+Real Data (Benchmarking Only):
+UK Companies House Financial Accounts
 🔗 https://download.companieshouse.gov.uk/en_accountsdata.html
 
-(Used only to benchmark realistic finance trends such as revenue growth, expense ratios, and cashflow patterns.)
+Synthetic Operational Data (Used in Model):
 
-##2. Synthetic Dataset (Created for Analysis)
+FactRevenue — revenue by customer × product
 
-The synthetic dataset includes complete fact and dimension tables structured in a star schema, ready for BI modelling.
+FactExpenses — department & category-level expenses
 
-##🔹 Fact Tables
-File	Description
-FactRevenue.csv	Monthly revenue at customer × product level
-FactExpenses.csv	Monthly expenses by department and category
-FactCashflow.csv	Operating, investing, financing cashflow with ending cash
-FactBudget.csv	Monthly budgeted revenue, COGS, and OPEX per product
-##🔹 Dimension Tables
-File	Description
-DimDate.csv	Time intelligence table (36 months)
-DimCustomer.csv	Customer info with segment & region
-DimProduct.csv	Product catalog with pricing & cost
-DimDepartment.csv	Department structure for expenses
+FactCashflow — operating, investing, financing flows
 
-A data_dictionary.csv is included for reference.
+FactBudget — budgeted revenue, COGS, OPEX
 
-#📊 Power BI Dashboard Components
-##1. Executive KPI Overview
+CustomerFirstPurchase — customer cohort mapping
 
-Total Revenue
+CustomerMonthlyActivity — retention activity
 
-Gross Profit
+DimDate, DimCustomer, DimProduct, DimDepartment
 
-Operating Profit
+Structured in a star schema and optimized for DAX time intelligence.
+
+**📈 Dashboard Sections**
+**1️⃣ Executive Summary
+**
+Revenue, Gross Profit, Operating Profit, Net Profit
 
 Cash Balance
 
-YoY comparisons
+YoY / MoM growth
 
-Trending charts
+Revenue vs Expense trends
 
-##2. Profit & Loss Statement (P&L)
+**2️⃣ Profit & Loss Deep Dive**
 
-Revenue
+Revenue breakdown (Product / Region / Segment)
 
-COGS
+COGS & Operating Expense analysis
 
-Gross Profit Margin
+Gross Margin by product/segment
 
-Operating Expenses
+Budget vs Actuals (waterfall variance)
 
-Net Profit Trend
+**3️⃣ Cashflow & Liquidity
+**
+Operating / Investing / Financing cashflow
 
-Gross Margin by Product / Customer Segment
+Free Cash Flow
 
-##3. Budget vs Actuals
+Burn Rate analysis
 
-Revenue variance
+Cash Runway (with What-If parameter)
 
-COGS variance
+Working capital indicators (AR/AP/DSO/DPO)
 
-Operating Expense variance
+**4️⃣ Customer & Segment Insights**
 
-Variance by category
+Profitability heatmap (Segment × Region)
 
-Waterfall chart showing variance drivers
+Cohort retention matrix
 
-4. Cashflow Analysis
+LTV (Lifetime Value) modelling
 
-Operating Cashflow
+Top customers (Pareto 80/20)
 
-Investing Cashflow
+Segment contribution analysis
 
-Financing Cashflow
+**🛠️ Skills Demonstrated**
 
-Net Cashflow
+Power BI (data modelling, DAX, parameters, time intelligence)
 
-Ending Cash runway
+Financial analysis (P&L, cashflow, budget variance, margins)
 
-Cashflow vs Profit comparison
+Cohort & retention modelling
 
-5. Customer & Product Insights
+Liquidity runway + burn analysis
 
-Revenue by customer segment
+Customer lifetime value (LTV)
 
-Product profitability
+Dashboard storytelling & visual design
 
-Top customers
+**📁 Repository Structure**
+data/        → CSV files (facts + dimensions)
+pbix/        → FP&A Dashboard Power BI file
+README.md    → Project documentation
+images/      → Screenshots (optional)
 
-Region-wise performance
-
-Contribution margin visuals
-
-6. Forecasting (Optional Enhancement)
-
-Using Power BI's built-in forecasting or Python:
-
-3–12 month revenue forecast
-
-Seasonal decomposition
+**👩‍💻 Author
+**
+Yashvi Pandya
+Data Analyst | FP&A | Power BI
+London, UK
 
 Forecast intervals
