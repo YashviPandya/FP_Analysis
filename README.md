@@ -38,8 +38,8 @@ DimDate, DimCustomer, DimProduct, DimDepartment
 Structured in a star schema and optimized for DAX time intelligence.
 
 **📈 Dashboard Sections**
-**1️⃣ Executive Summary
-**
+**1️⃣ Executive Summary**
+
 Revenue, Gross Profit, Operating Profit, Net Profit
 
 Cash Balance
@@ -58,8 +58,8 @@ Gross Margin by product/segment
 
 Budget vs Actuals (waterfall variance)
 
-**3️⃣ Cashflow & Liquidity
-**
+**3️⃣ Cashflow & Liquidity**
+
 Operating / Investing / Financing cashflow
 
 Free Cash Flow
@@ -102,8 +102,7 @@ pbix/        → FP&A Dashboard Power BI file
 README.md    → Project documentation
 images/      → Screenshots (optional)
 
-**👩‍💻 Author
-**
+**👩‍💻 Author**
 Yashvi Pandya
 Data Analyst | FP&A | Power BI
 London, UK
