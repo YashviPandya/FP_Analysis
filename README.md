@@ -1,8 +1,8 @@
-📊 FP&A Financial Performance Dashboard — Power BI
+#📊 FP&A Financial Performance Dashboard — Power BI
 
 A complete end-to-end financial analytics project using a hybrid dataset (real UK benchmarks + synthetic operational data).
 
-📁 Project Overview
+#📁 Project Overview
 
 This project showcases a full Financial Planning & Analysis (FP&A) dashboard built in Power BI, designed to demonstrate core skills required in finance, analytics, and BI roles.
 
@@ -14,25 +14,25 @@ A custom-built synthetic operational dataset that simulates revenue, expenses, b
 
 This dashboard replicates the type of reporting used by FP&A teams in modern UK businesses.
 
-📂 Dataset Description
-1. Real Data Source (Benchmarking Only)
+#📂 Dataset Description
+##1. Real Data Source (Benchmarking Only)
 
 UK Companies House — Public Financial Accounts Dataset
 🔗 https://download.companieshouse.gov.uk/en_accountsdata.html
 
 (Used only to benchmark realistic finance trends such as revenue growth, expense ratios, and cashflow patterns.)
 
-2. Synthetic Dataset (Created for Analysis)
+##2. Synthetic Dataset (Created for Analysis)
 
 The synthetic dataset includes complete fact and dimension tables structured in a star schema, ready for BI modelling.
 
-🔹 Fact Tables
+##🔹 Fact Tables
 File	Description
 FactRevenue.csv	Monthly revenue at customer × product level
 FactExpenses.csv	Monthly expenses by department and category
 FactCashflow.csv	Operating, investing, financing cashflow with ending cash
 FactBudget.csv	Monthly budgeted revenue, COGS, and OPEX per product
-🔹 Dimension Tables
+##🔹 Dimension Tables
 File	Description
 DimDate.csv	Time intelligence table (36 months)
 DimCustomer.csv	Customer info with segment & region
@@ -41,8 +41,8 @@ DimDepartment.csv	Department structure for expenses
 
 A data_dictionary.csv is included for reference.
 
-📊 Power BI Dashboard Components
-1. Executive KPI Overview
+#📊 Power BI Dashboard Components
+##1. Executive KPI Overview
 
 Total Revenue
 
@@ -56,7 +56,7 @@ YoY comparisons
 
 Trending charts
 
-2. Profit & Loss Statement (P&L)
+##2. Profit & Loss Statement (P&L)
 
 Revenue
 
@@ -70,7 +70,7 @@ Net Profit Trend
 
 Gross Margin by Product / Customer Segment
 
-3. Budget vs Actuals
+##3. Budget vs Actuals
 
 Revenue variance
 
